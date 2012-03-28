@@ -64,3 +64,9 @@ field set --class ~.domain.ItemEntity --type ~.domain.ItemAdjustment --fieldName
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-03-17 22:51:33
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-03-17 22:52:09
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-03-17 23:00:07
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-26 12:12:08
+hint
+hint mvn
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-26 13:12:38
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-28 11:49:52
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-28 11:51:17
