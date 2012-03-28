@@ -24,6 +24,10 @@ privileged aspect TransactionDescription_Roo_Jpa_Entity {
     @Column(name = "version")
     private Integer TransactionDescription.version;
     
+    public TransactionDescription.new() {
+        super();
+    }
+
     public Long TransactionDescription.getId() {
         return this.id;
     }

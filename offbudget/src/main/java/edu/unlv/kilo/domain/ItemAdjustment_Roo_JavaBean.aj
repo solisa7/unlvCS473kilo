@@ -4,6 +4,8 @@
 package edu.unlv.kilo.domain;
 
 import java.lang.String;
+import edu.unlv.kilo.domain.BudgetBranch;
+import edu.unlv.kilo.domain.ItemAdjustment;
 import java.util.Date;
 
 privileged aspect ItemAdjustment_Roo_JavaBean {
@@ -22,6 +24,14 @@ privileged aspect ItemAdjustment_Roo_JavaBean {
     
     public void ItemAdjustment.setEffectiveDate(Date effectiveDate) {
         this.effectiveDate = effectiveDate;
+    }
+    
+    public BudgetBranch ItemAdjustment.getBranch() {
+        return this.branch;
+    }
+    
+    public void ItemAdjustment.setBranch(BudgetBranch branch) {
+        this.branch = branch;
     }
     
 }
